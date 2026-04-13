@@ -42,6 +42,35 @@ class Program
             Console.WriteLine("Zla opcja");
         }
     }
+
+    static void Converter()
+    {
+        Console.WriteLine("Wybierz kierunek konwersji: C-Celsjusz na Farenheit, F-Farenheit na Celsjusz");
+        string option = Console.ReadLine().ToLower();
+
+        if (option == "c")
+        {
+            Console.WriteLine("Podaj temperature");
+            float temp = float.Parse(Console.ReadLine());
+
+            Console.WriteLine($"{temp} stopni Celsjusza to {temp * 1.8 + 32} stopni Farenheita");
+        }
+
+        else if (option == "f")
+        {
+            Console.WriteLine("Podaj temperature");
+            float temp = float.Parse(Console.ReadLine());
+
+            Console.WriteLine($"{temp} stopni Farenheita to {(temp-32) / 1.8} stopni Celsjusza");
+        }
+
+        else
+        {
+            Console.WriteLine("Zla opcja");
+        }
+
+    }
+
     static void Main()
     {
         Console.WriteLine("Wybierz opcje: 1-kalkulator, 2-konwerter, 3-srednia");
@@ -54,6 +83,7 @@ class Program
                 break;
             
             case "2":
+                Converter();
                 break;  
 
             case "3": 
