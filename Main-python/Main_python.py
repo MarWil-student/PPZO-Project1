@@ -16,6 +16,19 @@ def calculator():
     else:
         print("Zla opcja")
 
+def converter():
+    print("Wybierz kierunek konwersji: C-Celsjusz na Fahrenheit, F-Fahrenheit na Celsjusz")
+    option = input().lower()
+    if option == "c":
+        temp = float(input("Podaj temperaturę: "))
+        print(f"{temp} stopni Celsjusza to {temp * 1.8 + 32} stopni Fahrenheita")
+    elif option == "f":
+        temp = float(input("Podaj temperaturę: "))
+        print(f"{temp} stopni Fahrenheita to {(temp - 32) / 1.8} stopni Celsjusza")
+    else:
+        print("Zła opcja")
+
+
 def main():
     print("Wybierz opcję: 1-kalkulator, 2-konwerter, 3-srednia")
     option = input()  
@@ -23,7 +36,7 @@ def main():
         case "1":
             calculator()
         case "2":
-            print("converter")
+            converter()
         case "3":
             print("student gpa")
 
