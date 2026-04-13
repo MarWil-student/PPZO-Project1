@@ -71,6 +71,35 @@ class Program
 
     }
 
+    static void Student_GPA()
+    {
+        Console.WriteLine("Podaj liczbe ocen");
+        int count = int.Parse(Console.ReadLine());
+        int sum = 0;
+
+        if(count > 0)
+        {
+            for (int i = 0; i < count; i++)
+            {
+                Console.WriteLine("Podaj ocene");
+                sum += int.Parse(Console.ReadLine());
+            }
+
+            if (sum / count < 3.0)
+            {
+                Console.WriteLine("Uczen nie zdal");
+            }
+            else
+            {
+                Console.WriteLine("Uczen zdal");
+            }
+        }
+
+        else
+        {
+            Console.WriteLine("Brak ocen");
+        }
+    }
     static void Main()
     {
         Console.WriteLine("Wybierz opcje: 1-kalkulator, 2-konwerter, 3-srednia");
@@ -86,7 +115,8 @@ class Program
                 Converter();
                 break;  
 
-            case "3": 
+            case "3":
+                Student_GPA();
                 break;
 
             default:
