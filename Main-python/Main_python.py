@@ -28,6 +28,19 @@ def converter():
     else:
         print("Zła opcja")
 
+def student_gpa():
+        count = int(input("Podaj liczbe ocen: "))
+        suma = 0
+        if count > 0:
+            for i in range(count):
+                suma += int(input(f"Podaj ocene: "))           
+            print(f"Srednia: {suma/count}")
+            if (suma/count) < 3.0:
+                print("Uczen nie zdal")
+            else:
+                print("Uczen zdal")
+        else:
+            print("Brak ocen")
 
 def main():
     print("Wybierz opcję: 1-kalkulator, 2-konwerter, 3-srednia")
@@ -38,7 +51,7 @@ def main():
         case "2":
             converter()
         case "3":
-            print("student gpa")
+            student_gpa()
 
 if __name__ == "__main__":
     main()
