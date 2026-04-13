@@ -1,0 +1,15 @@
+C:\Users\marty\OneDrive\Pulpit\PPZO\PPZO-Project1\Main-c#\bin\Debug\net10.0\Main-c#.exe
+C:\Users\marty\OneDrive\Pulpit\PPZO\PPZO-Project1\Main-c#\bin\Debug\net10.0\Main-c#.deps.json
+C:\Users\marty\OneDrive\Pulpit\PPZO\PPZO-Project1\Main-c#\bin\Debug\net10.0\Main-c#.runtimeconfig.json
+C:\Users\marty\OneDrive\Pulpit\PPZO\PPZO-Project1\Main-c#\bin\Debug\net10.0\Main-c#.dll
+C:\Users\marty\OneDrive\Pulpit\PPZO\PPZO-Project1\Main-c#\bin\Debug\net10.0\Main-c#.pdb
+C:\Users\marty\OneDrive\Pulpit\PPZO\PPZO-Project1\Main-c#\obj\Debug\net10.0\Main-c#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marty\OneDrive\Pulpit\PPZO\PPZO-Project1\Main-c#\obj\Debug\net10.0\Main-c#.AssemblyInfoInputs.cache
+C:\Users\marty\OneDrive\Pulpit\PPZO\PPZO-Project1\Main-c#\obj\Debug\net10.0\Main-c#.AssemblyInfo.cs
+C:\Users\marty\OneDrive\Pulpit\PPZO\PPZO-Project1\Main-c#\obj\Debug\net10.0\Main-c#.csproj.CoreCompileInputs.cache
+C:\Users\marty\OneDrive\Pulpit\PPZO\PPZO-Project1\Main-c#\obj\Debug\net10.0\Main-c#.sourcelink.json
+C:\Users\marty\OneDrive\Pulpit\PPZO\PPZO-Project1\Main-c#\obj\Debug\net10.0\Main-c#.dll
+C:\Users\marty\OneDrive\Pulpit\PPZO\PPZO-Project1\Main-c#\obj\Debug\net10.0\refint\Main-c#.dll
+C:\Users\marty\OneDrive\Pulpit\PPZO\PPZO-Project1\Main-c#\obj\Debug\net10.0\Main-c#.pdb
+C:\Users\marty\OneDrive\Pulpit\PPZO\PPZO-Project1\Main-c#\obj\Debug\net10.0\Main-c#.genruntimeconfig.cache
+C:\Users\marty\OneDrive\Pulpit\PPZO\PPZO-Project1\Main-c#\obj\Debug\net10.0\ref\Main-c#.dll
